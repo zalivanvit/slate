@@ -59,8 +59,9 @@ html, body {
   bottom: 0;
   width: $nav-width;
   background-color: $nav-bg;
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 400;
+  border-right: 1px solid #f0f4f7;
 
   // language selector for mobile devices
   .lang-selector {
@@ -160,6 +161,10 @@ html, body {
     color: $nav-active-text;
   }
 
+  .toc-link:hover {
+    text-decoration: underline;
+  }
+
   // this is parent links of the currently selected ToC entry
   .toc-link.active-parent {
     background-color: $nav-active-parent-bg;
@@ -174,7 +179,7 @@ html, body {
 
   .toc-h2 {
     padding-left: $nav-padding + $nav-indent;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .toc-footer {
@@ -185,10 +190,6 @@ html, body {
     li,a {
       color: $nav-text;
       text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
     }
 
     li {
@@ -206,7 +207,7 @@ html, body {
   white-space: nowrap;
   text-overflow: ellipsis;
   text-decoration: none;
-  color: #fff;
+  color: $nav-text;
   transition-property: background;
   transition-timing-function: linear;
   transition-duration: 130ms;
