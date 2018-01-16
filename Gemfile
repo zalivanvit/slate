@@ -10,5 +10,3 @@ gem 'rouge', '~> 2.0.5'
 gem 'redcarpet', '~> 3.4.0'
 gem 'nokogiri', '~> 1.6.8'
 
-gem 'rake'
-gem 'thin'
