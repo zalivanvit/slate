@@ -284,7 +284,8 @@ html, body {
 .lang-selector {
   background-color: $lang-select-bg;
   width: 100%;
-  font-weight: bold;
+  font-weight: 400;
+  padding-left: 35px;
   a {
     display: block;
     float:left;
@@ -293,15 +294,24 @@ html, body {
     padding: 0 10px;
     line-height: 30px;
     outline: 0;
+    margin: 10px 4px;
+    border: 1px solid $lang-select-bg;
+    border-radius: 4px;
 
-    &:active, &:focus {
-      background-color: $lang-select-pressed-bg;
-      color: $lang-select-pressed-text;
-    }
+    //&:active, &:focus {
+    //  background-color: $lang-select-pressed-bg;
+    //  color: $lang-select-pressed-text;
+    //}
 
     &.active {
-      background-color: $lang-select-active-bg;
+      background-color: #4b9fd4;
       color: $lang-select-active-text;
+      padding: 0 10px;
+      border-radius: 4px;
+    }
+    &:hover {
+      border: 1px solid #4c555a;
+      border-radius: 4px;
     }
   }
 
@@ -515,12 +525,17 @@ html, body {
 // This is all the stuff that appears in the right half of the page
 
 .content {
+  margin-right: 3%;
+
+
   pre, blockquote {
     background-color: $code-bg;
     color: #fff;
+    border-radius: 5px;
 
     margin: 0;
-    width: $examples-width;
+    width: $examples-width - 4.5%;
+    //width: 50%;
 
     float:right;
     clear:right;
@@ -543,6 +558,7 @@ html, body {
     padding-top: 2em;
     padding-bottom: 2em;
     padding: 2em $main-padding;
+    margin-bottom: 20px;
   }
 
   blockquote {
