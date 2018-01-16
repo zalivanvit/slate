@@ -1,1 +1,1 @@
-web: bundle exec middleman build
+echo “web: bundle exec middleman server -p $PORT” > Procfile
