@@ -536,7 +536,6 @@ html, body {
 
     margin: 0;
     width: $examples-width - 4.5%;
-    //width: 50%;
 
     float:right;
     clear:right;
@@ -568,6 +567,15 @@ html, body {
       padding: $code-annotation-padding 2em;
       color: #eee;
     }
+  }
+
+  a {
+    color: #0099e5;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #292e31;
   }
 }
 
