@@ -164,6 +164,12 @@ html, body {
 
   .toc-link:hover {
     text-decoration: underline;
+    color: #292e31;
+  }
+
+  .toc-link.active:hover {
+    text-decoration: none;
+    color: #0099e5;
   }
 
   // this is parent links of the currently selected ToC entry
