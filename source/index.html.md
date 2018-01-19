@@ -229,7 +229,14 @@ This endpoint deletes a specific kitten.
 
 ### URL Parameters
 
-Parameter | Description
---------- | -----------
-ID | The ID of the kitten to delete
+*   Parameter
 
+    Description dfgsdfg sdfgsdfg sdfgsdfgsd sdfg sdg fdsgdsf gsdfgjk j lkjhlkjh jlkh khlkjh kljh kjh jkh lkjhl kjlkjh lkjh lkjh lkjhlkjhdfgiuerghkld kjhdflkjgh
+
+*   ID
+
+    The ID of the kitten to delete    sdsfsdfsdf sdfdsfgsdfgsd gsdfgdfgds fgsdfgsdfgsdf
+
+*   Parameter
+
+    Description dfgsdfg sdfgsdfg sdfgsdfgsd sdfg sdg fdsgdsf gsdfgj j lkjhlkjh jlkh kjhlkjh kljh kjh jkh lkjhl kjlkjh lkjh lkjh lkjhlkjhdfgiuerghkld kjhdflkjgh
