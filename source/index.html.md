@@ -231,12 +231,12 @@ This endpoint deletes a specific kitten.
 
 *   Parameter
 
-    Description dfgsdfg sdfgsdfg sdfgsdfgsd sdfg sdg fdsgdsf gsdfgjk j lkjhlkjh jlkh khlkjh kljh kjh jkh lkjhl kjlkjh lkjh lkjh lkjhlkjhdfgiuerghkld kjhdflkjgh
+    Description
 
 *   ID
 
-    The ID of the kitten to delete    sdsfsdfsdf sdfdsfgsdfgsd gsdfgdfgds fgsdfgsdfgsdf
+    The ID of the kitten to delete
 
-*   Parameter
+*   source<br>optional
 
-    Description dfgsdfg sdfgsdfg sdfgsdfgsd sdfg sdg fdsgdsf gsdfgj j lkjhlkjh jlkh kjhlkjh kljh kjh jkh lkjhl kjlkjh lkjh lkjh lkjhlkjhdfgiuerghkld kjhdflkjgh
+    A payment source to be charged. The source must be the ID of a source belonging to the customer associated with the invoice being paid.
