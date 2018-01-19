@@ -690,6 +690,10 @@ html, body {
     float: none;
   }
 
+  .content table {
+    width: 100%;
+  }
+
   %right-col + %left-col {
     margin-top: $main-padding;
   }
